@@ -61,3 +61,19 @@
 [class*="none_"]::-webkit-scrollbar-thumb {
     background: #101115;
 }
+
+
+/* No, I don't want to make a thread from a chain of more than 2 replies by F53 */
+[class*="threadSuggestionBar_"] {
+  display:none;
+}
+
+/* show full about me */
+[style="-webkit-line-clamp: 6;"] {
+  -webkit-line-clamp: 10000000 !important;
+}
+
+/* not circle */
+[class^="avatar_"] {
+  border-radius: 25%;
+}
