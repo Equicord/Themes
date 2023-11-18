@@ -62,12 +62,27 @@ visibility: hidden;
   opacity: 1;
 }
 
-/* Bouncy Buttons By F53 */
-button, 
-[role="button"],
-a[href^='/channels'],
-[aria-label="Servers"] [class^=listItem] {
-  &:hover { filter: brightness(0.95); scale: 0.95; }
-  &:active { filter: brightness(0.9); scale: 1.05; }
-  transition: scale 0.6s cubic-bezier(0.34, 5, 0.64, 1);
+/* Animated Discord Title Bar and Guild List *?
+
+/* Additional Transparency */
+[class^=childWrapper_], /* Discord Home Icon */
+[class*=guilds_], /* Guild List Bar */
+[class^=circleIconButton_],  /* Add Server and Server Discovery */
+[class^=scroller_],  /* Overrides Nitro Themes (for Guild List) */ 
+[class^=typeWindows_], /* Overrides Nitro Themes (for Title Bar) */
+[class^=folder_], [class^=folderIconWrapper_], [class^=expandedFolderBackground_] /*Folders*/ 
+{
+  background: none !important;
+}
+
+/* Additional Recolouring */
+[class^=wordmarkWindows_], /* "Discord" Text */
+[class^=winButton], /* Close Discord Button" Text */
+[class^=circleIcon_] /* Add Server and Server Discovery SVG'S */ {
+    color: #ffffff;
+}
+
+/* Cleanup */
+body, #app-mount/* Overrides Gradient (for Title Bar */ {
+  background: var(--background-tertiary) !important;
 }
