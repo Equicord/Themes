@@ -5,12 +5,6 @@
 
 /* Remove Titlebar of Discord */
 @import url(https://raw.githubusercontent.com/coolesding/shiggycord/v3/files/winbar.css);
-/* Equicord Home Icon */
-.childWrapper-1j_1ub{
-background: url("https://i.ibb.co/TmY3rGm/Logo.png");
-background-size: contain;
-visibility: hidden;
-}
 
 /* Make pronouns stand out more */
 [class*=pronouns] {
@@ -47,19 +41,6 @@ visibility: hidden;
 }
 .vc-spotify-button:hover {
     animation: spin 1.5s ease-in-out infinite
-}
-
-
-/* Spotify Controls On Hover */
-.vc-spotify-button-row {
-  height: 0;
-  opacity: 0;
-  transition: height .2s, opacity .02s;
-}
-
-#vc-spotify-player:hover .vc-spotify-button-row {
-  height: 32px;
-  opacity: 1;
 }
 
 /* Shiggy Loading */
