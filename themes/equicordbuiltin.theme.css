@@ -51,3 +51,13 @@
 @import url(//dablulite.github.io/css-snippets/NitroThemesFix/import.css);
 @import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+
+/* Server List Scrollbar by icanttellyou */
+[class*="none_"]::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+    border: none;
+}
+[class*="none_"]::-webkit-scrollbar-thumb {
+    background: #101115;
+}
