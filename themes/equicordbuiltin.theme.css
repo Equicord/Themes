@@ -43,5 +43,11 @@
     animation: spin 1.5s ease-in-out infinite
 }
 
-/* Shiggy Loading */
-@import url(https://raw.githubusercontent.com/Blisterexe/shiggy-loader/main/main.css); 
+/* Dabliu's Better Discord Looks/Tweaks */
+@import url(//dablulite.github.io/css-snippets/BetterModals/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterFloatingEditor/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterAuthApps/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterStatusPicker/import.css);
+@import url(//dablulite.github.io/css-snippets/NitroThemesFix/import.css);
+@import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
