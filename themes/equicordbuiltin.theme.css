@@ -1,8 +1,10 @@
 /* Built in Equicord CSS (For better CSS) */
+/* Settings Icons */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/SettingsIcons.css");
+/* Gradient Buttons */
 @import url('https://discord-extensions.github.io/snippets/gradient-buttons/source.css');
-
+/* Windows Titlebar */
 @import url('https://discord-extensions.github.io/snippets/windows-titlebar/source.css');
-
 /* Remove Titlebar of Discord */
 @import url('https://raw.githubusercontent.com/coolesding/shiggycord/v3/files/winbar.css');
 
@@ -71,27 +73,4 @@
 /* show full about me */
 [style="-webkit-line-clamp: 6;"] {
   -webkit-line-clamp: 10000000 !important;
-}
-
-/* Settings Icons */
-
-/**
- * @name SettingsIcons
- * @author Saltssaumure, DevilBro
- * @authorLink https://github.com/Saltssaumure
- * @description Adds icons to Discord settings, for use with Vencord plugin ThemeAttributes.
- * @license GPL-2.0
- * @version 1.1
- * @invite uy8nKQVatp
- * @source https://github.com/MiniDiscordThemes/SettingsIcons
- * @donate https://ko-fi.com/saltssaumure
-*/
-
-@import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
-
-/* See https://github.com/MiniDiscordThemes/SettingsIcons#customisation for customisation settings. */
-:root {
-    --settingsicons: 1;
-    --si-size: 18px;
-    --si-gap: 14px;
 }
