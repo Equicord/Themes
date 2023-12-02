@@ -74,3 +74,20 @@
 [style="-webkit-line-clamp: 6;"] {
   -webkit-line-clamp: 10000000 !important;
 }
+
+/* Better Experiments */
+
+/* Compact experiment server config warning */
+#experiments-tab [class^="description_"] { overflow: hidden; }
+#experiments-tab [class^="description_"] div:first-of-type { float: left; }
+#experiments-tab [class^="description_"] div+div {
+    font-size: 0;
+    line-height: 0; 
+    float: right;
+}
+#experiments-tab [class^="description_"] div+div:after {
+    filter: grayscale();
+    content: "⚠ No server configuration";
+    line-height: 20px;
+    font-size: 14px;
+}
