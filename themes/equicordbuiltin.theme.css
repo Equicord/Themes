@@ -91,3 +91,6 @@
     line-height: 20px;
     font-size: 14px;
 }
+
+	/* animations */
+	--hover-push: 0.2s ease; /* channels/members when hovered */
